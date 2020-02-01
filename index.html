@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>サンプルホームページ</title>
+
+　　　<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet"　type="text/css" href="normal.css">
+     <link rel="stylesheet" href="css/ress.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="common/footer.html">
+     <link rel="stylesheet" href="common/header.html">
+　　　<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+　　　<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <script src="js/web-font.js"></script>
+     <script src="js/load-files.js"></script>
+
+     <!-- ページ別読み込み -->
+     <link rel="stylesheet" href="css/pages/index.css">
+
+   </head>
+
+   <body>
+      <!-- メニュ- -->
+      <div class="header-container">
+        <div class="header-menuBar">
+          <div class="header-menuBar-logo">
+            <a href="index.html"><img src="img/logo.png" alt="" srcset=""></a>
+          </div>
+          <nav class="header-menuBar-menu">
+            <a href="index.html" id="menu01" class="header-menuBar-menu-item">
+              About
+            </a>
+            <a href="news.html" id="menu02" class="header-menuBar-menu-item">
+              News
+            </a>
+            <a href="qa.html" id="menu03" class="header-menuBar-menu-item">
+              Q&A
+            </a>
+          </nav>
+        </div>
+      </div>
+
+
+        <div class="wrapper">
+          <section class="aboveTheFold">
+            <img src="img/home-baner.jpg" alt="" srcset="">
+          </section>
+
+        <div class="wrapper-container">
+          <section class="message">
+            <div class="message-img">
+             <img src="img/home1.png" alt="" srcset="">
+            </div>
+
+            <div class="message-container">
+              <h2 class="message-title">
+                暮らしを提案する
+              </h2>
+
+             <div class="message-element">
+               私たちは、家具を売るのではなく、お客様の理想とする<br>
+               暮らしを提案します<br>
+               仕事で疲れた後に帰りたくなる、<br>
+               今日も１日頑張ろうと思える、<br>
+               そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。
+             </div>
+           </div>
+         </section>
+
+
+        <section class="lifeStyle">
+          <h2 class="lifeStyle">
+            豊富なスタイル
+          </h2>
+          <div class="carousel slide lifeStyle-slide" id="lifeStyle-slide" data-ride="carousel" deta-interval=3000>
+            <ol class="carousel-indicators">
+              <li data-target="#lifeStyle-slide" data-slide-to="0" class="active"></li>
+              <li data-target="#lifeStyle-slide" data-slide-to="1"></li>
+              <li data-target="#lifeStyle-slide" data-slide-to="2"></li>
+            </ol>
+          　<div class="carousel-inner">
+              <div class="carousel-item active">
+              　<img src="img/slide01.png" id="first-slide" alt="First slide">
+              </div>
+            　<div class="carousel-item">
+              　<img src="img/slide02.png" id="second-slide" alt="Second slide">
+              </div>
+            <div class="carousel-item">
+              <img src="img/slide03.png" id="third-slide" alt="Third slide">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <h2 class="news-title">
+          News
+        </h2>
+        <div class="news-element">
+          <div class="news-element-item">
+          <img src="img/home3.png" alt="" srcset="">
+          <div class="mask">
+            <div class="caption">アームストロングのカウチ入荷</div>
+          </div>
+        </div>
+        <div class="news-element-item">
+          <img src="img/home4.png" alt="" srcset="">
+          <div class="mask">
+            <div class="caption">アームストロングのチェア入荷</div>
+          </div>
+        </div>
+        <div class="news-element-item">
+          <img src="img/home5.png" alt="" srcset"">
+          <div class="mask">
+            <div class="caption">アームストロングのテーブル入荷</div>
+          </div>
+        </div>
+      </div>
+      <div class="news-more">
+        <a href="news.html">view more</a>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+      <!-- CONTACT -->
+      <section class="contact">
+        <h2 class="contact-title">CONTACT</h2>
+        <form class="contact-form" action="" method="post">
+         <div class="">
+           <input class="contact-form-text" type="text" placeholder="お名前" name="name"><br />
+         </div>
+         <div class="contact-form-email">
+          <input class="contact-form-text" type="text" placeholder="メールアドレス" name="email"><br />
+        </div>
+        <div class="contact-form-message">
+          <textarea id="message" name="message" placeholder="お問い合わせ内容" class="contact-form-text" rows="7"></textarea>
+        </div>
+        <button type="button" class="contact-form-button">
+          <input type="submit" name="submit" value="SEND">
+        </button>
+      </form>
+    </section>
+   </div>
+ </div>
+
+
+
+   <footer>
+
+       <div class="footer-menuBar">
+         <div class="footer-menuBar-logo">
+           <a href="index.html"><img src="img/logo_white.png" alt="" srcset=""></a>
+         </div>
+         <nav class="footer-menuBar-menu">
+           <a href="index.html" id="menu01" class="footer-menuBar-menu-item">
+             About
+           </a>
+           <a href="news.html" id="menu02" class="footer-menuBar-menu-item">
+             News
+           </a>
+           <a href="qa.html" id="menu03" class="footer-menuBar-menu-item">
+             Q&A
+           </a>
+         </nav>
+       </div>
+   </footer>
+
+
+</body>
+</html>
